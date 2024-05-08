@@ -1,0 +1,83 @@
+body{
+	background-color: #f4dece;
+}
+
+#Information_Page{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.username_section{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2%;
+}
+
+.password_section{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.5%;
+}
+
+.page_header{
+	display: flex;
+	margin-top: 10%;
+	justify-content: center;
+}
+
+.button_group{
+	position: absolute;
+	display: flex;
+	margin-top: 40px;
+	width: 17%;
+	justify-content: space-between;
+	align-items: center;
+	top: 48%;
+	left: 41.5%;
+}
+
+.button{
+	width: 80px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #DCA396;
+}
+
+.button:hover{
+	transition: all 0.2s ease-in-out;
+	border: 2px solid black;
+	background-color: #b08278;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	text-align: center;
+}
+
+#admin_table{
+	position: absolute;
+	width: 50%;
+	top: 38%;
+	left: 25%;
+}
+
+.logout_button{
+	position: absolute;
+	display: flex;
+	margin-top: 40px;
+	width: 17%;
+	justify-content: space-between;
+	align-items: center;
+	top: 70%;
+	left: 46.5%;
+}

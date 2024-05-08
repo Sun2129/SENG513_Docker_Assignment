@@ -1,0 +1,8 @@
+FROM php:8.3.3-apache
+WORKDIR /var/www/html
+RUN docker-php-ext-install pdo pdo_mysql
+
+# we'll mount the volume in docker-compose so don't need to copy
+# however, if you are using this for production then may want it
+# leaving it in doesn't hurt
+COPY src/ /var/www/html/
